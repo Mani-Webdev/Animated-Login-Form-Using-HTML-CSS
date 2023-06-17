@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: ubuntu;
+}
+body{
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10% 0% 15%;
+}
+.container{
+    background-color: rgb(0, 0, 0);
+    min-width: 30%;
+    height: 70%;
+    font-size: 2rem;
+    color: aqua;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 10px 90px 0px black;
+}
+.container input{
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 1.7rem;
+    color: white;
+    margin: 20px;
+    border-radius: 30px;
+    min-height: 60px;
+    width: 75%;
+    outline: none;
+    border: 3px solid white;
+    background: transparent;
+    transition: all 200ms;
+}
+.container input:hover{
+    width:90% ;
+}
+.container .logtitle{
+    margin-bottom: 10%;
+}
+button{
+    font-size: 2rem;
+    min-width: 25%;
+    padding: 5px 15px;
+    margin: 6%;
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    background: transparent;
+    
+}
+button:hover{
+    background: transparent;
+    background-color: aqua;
+    border: none;
+    color: black;
+    transition: all 200ms;
+    cursor: pointer;
+}
+.username:focus,
+.password:focus{
+    width: 50%;
+    animation-name: colorchange;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colorchange{
+    0%{
+        border-color: blueviolet;
+        color: blueviolet;
+    }
+    10%{
+        border-color: aqua;
+        color: aqua;
+    }
+    20%{
+        border-color: hotpink;
+        color: hotpink;
+    }
+
+    30% {
+        border-color: red;
+        color: red;
+    }
+
+    40% {
+        border-color: purple;
+        color: purple;
+    }
+
+    50% {
+        border-color: yellow;
+        color: yellow;
+
+    }
+
+    60% {
+        border-color: cyan;
+        color: cyan;
+    }
+
+    70% {
+        border-color: skyblue;
+        color: skyblue;
+    }
+
+    80% {
+        border-color: pink;
+        color: pink;
+    }
+
+    90% {
+        border-color: red;
+        color: red;
+    }
+
+    100% {
+        border-color: yellow;
+        color: yellow;
+    }
+}
