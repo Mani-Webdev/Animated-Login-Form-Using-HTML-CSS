@@ -15,6 +15,7 @@ This project is a simple and stylish animated login form built using HTML and CS
 
 # Usage:
   1.Clone the repository or download the source code.
+  
   2.Open the login.html file in your preferred web browser.
   
 # Browser Compatibility:
@@ -22,6 +23,7 @@ The login form is designed to work across modern web browsers, including Chrome,
 
 # Resources:
   1.HTML
+  
   2.CSS
   
 Feel free to contribute, report issues, or suggest improvements. Pull requests are welcome!
